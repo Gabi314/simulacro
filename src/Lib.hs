@@ -180,7 +180,6 @@ rebelionGrupal rehenes ladrones = map (rebelarse rehenes) ladrones
 -- entonces no se puede. Pero si se trata de otro plan que no involucre a la lista de habilidades o que no requiera recorrerla completa
 -- entonces sí es posible ejecutarlo.
 
--- 10)  Si los planes solo involucran quitar armas como esconderse y atacar al ladron entonces sí es posible ya que no se recorre la
--- lista de armas entera. En cambio si hay algun plan que requiera recorrer la lista de armas entera entonces no va a ser posible la 
--- ejecución.
+-- 10)  No es posible ya que nunca se podría actualizar la lista entera de las armas de los ladrones aunque se le quiten una cantidad
+-- finita de las mismas
 
